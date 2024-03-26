@@ -36,3 +36,58 @@
     transform: rotate(360deg);
   }
 }
+
+p{
+  color: red
+}
+
+input{
+  display: block;
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    box-sizing: border-box;
+}
+
+label{
+  margin-bottom: 5px;
+}
+
+form{
+  display: flex;
+  text-align: left;
+  margin: 10px auto;
+  padding: 20px;
+  flex-direction: column;
+  width: 100%;
+  align-items: right;
+  border: 3px gray solid;
+  border-radius: 10px;
+  background-color: lightgray;
+
+}
+
+button {
+  display: block;
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid gray;
+   cursor: pointer;
+
+}
+
+div{
+  display: flex;
+    text-align: center;
+    margin: 10px;
+    padding: 5px;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    border: 3px white solid;
+    border-radius: 10px;
+    width: fit-content;
+}
+
